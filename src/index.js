@@ -512,6 +512,7 @@ export default class Editor extends React.Component<Props, State> {
       textareaId,
       textareaClassName,
       autoFocus,
+      autoCapitalize,
       disabled,
       form,
       maxLength,
@@ -573,7 +574,7 @@ export default class Editor extends React.Component<Props, State> {
           readOnly={readOnly}
           required={required}
           autoFocus={autoFocus}
-          autoCapitalize="off"
+          autoCapitalize={autoCapitalize}
           autoComplete="off"
           autoCorrect="off"
           spellCheck={false}

@@ -20,6 +20,7 @@ declare module 'react-simple-code-editor' {
       textareaId?: string,
       textareaClassName?: string,
       autoFocus?: boolean;
+      autoCapitalize?: boolean;
       disabled?: boolean;
       form?: string;
       maxLength?: number;
